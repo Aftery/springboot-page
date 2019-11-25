@@ -35,7 +35,7 @@ public class SpringbootPageApplicationTests {
         List<String> sexList = new ArrayList<>();
         sexList.add("男");
         sexList.add("女");
-        for (int i=0;i<200;i++) {
+        for (int i=0;i<500;i++) {
             user = new User();
             user.setAge(RandomUtil.randomInt(0, 100));
             user.setName(RandomUtil.randomString(3));
